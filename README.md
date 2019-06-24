@@ -76,11 +76,11 @@ F -
 
 T -
 
-/<word> - Find the occurance
+/word - Find the occurance of "word" in the file
 
-n - 
+n - Go to the next occurance of a word in the file
 
-N - 
+N - Go to the previous occurance of a word in a file
 
 
 
