@@ -2,7 +2,10 @@
 
 ### Commands for insert mode
 
+
+```
 ESC - Leave insert mode to go into command mode
+```
 
 ### Commands for normal (command) mmode
 ```
