@@ -91,6 +91,12 @@ V_U - Selecting something in visual mode and making the selected text uppercase
 
 V_~ - Selecting something in visual mode and flipping the case
 
+:reg - See all registers
+"[reg-name][y|d] - to interact with a specific register
+```
+### Miscellaneous
+```
+* - this register represents the system clipboard
 ```
 
 
