@@ -7,7 +7,7 @@
 ESC - Leave insert mode to go into command mode
 ```
 
-### Commands for normal (command) mmode
+### Commands for normal (command) mode
 ```
 h, j, k, l - Move left, down, up and right respectively
 
@@ -43,7 +43,11 @@ O - Add a line before the current line and insert at the start of this new line
 
 $ - Go to the end of the current line without entering insert mode
 
+g_ - Go to last char in line
+
 0 - Go the the start of the current line without entering insert mode
+
+CTRL-c - Go to first char in line
 
 dw - Delete a word
 
@@ -67,7 +71,7 @@ gi - Go into insert mode at the position where insert mode was last active
 
 u - Undo previous command
 
-Ctrl-r - Redo previous command
+CTRL-r - Redo previous command
 
 . - Perform previous command again
 
@@ -91,8 +95,15 @@ V_U - Selecting something in visual mode and making the selected text uppercase
 
 V_~ - Selecting something in visual mode and flipping the case
 
-:reg - See all registers
+:reg - Show all registers
 "[reg-name][y|d] - to interact with a specific register
+
+:ls     - Show all buffers
+:b{n}   - Go to buffer n
+:b[p|n] - Go to the previous/next buffer
+
+m{m} - set mark on register m
+`{m} - go to mark set in register m
 ```
 ### Miscellaneous
 ```
