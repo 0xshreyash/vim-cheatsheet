@@ -84,6 +84,13 @@ T -
 n - Go to the next occurance of a word in the file
 
 N - Go to the previous occurance of a word in a file
+
+Vu - Selecting something in visual mode and making the selected text lowercase
+
+VU - Selecting something in visual mode and making the selected text uppercase
+
+V~ - Selecting something in visual mode and flipping the case
+
 ```
 
 
