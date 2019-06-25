@@ -96,13 +96,17 @@ V_U - Selecting something in visual mode and making the selected text uppercase
 V_~ - Selecting something in visual mode and flipping the case
 
 :reg - Show all registers
+
 "[reg-name][y|d] - to interact with a specific register
 
 :ls     - Show all buffers
+
 :b{n}   - Go to buffer n
+
 :b[p|n] - Go to the previous/next buffer
 
 m{m} - set mark on register m
+
 `{m} - go to mark set in register m
 ```
 ### Miscellaneous
