@@ -5,7 +5,7 @@
 ESC - Leave insert mode to go into command mode
 
 ### Commands for normal (command) mmode
-
+```
 h, j, k, l - Move left, down, up and right respectively
 
 i - go into insert mode at the current cursor position
@@ -81,6 +81,7 @@ T -
 n - Go to the next occurance of a word in the file
 
 N - Go to the previous occurance of a word in a file
+```
 
 
 
