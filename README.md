@@ -2,12 +2,12 @@
 
 ### Commands for insert mode
 
-
 ```
 ESC - Leave insert mode to go into command mode
 ```
 
 ### Commands for normal (command) mode
+
 ```
 h, j, k, l - Move left, down, up and right respectively
 
@@ -113,6 +113,26 @@ m{m} - set mark on register m
 ```
 * - this register represents the system clipboard
 ```
+
+
+### Advanced commads
+
+Commands useful for modifying variables of the form: this_is_a_variable_name
+
+```
+ct_ - change word till the first underscore you encounter (not including the underscore)
+
+cf_ - change word till the first underscore you encounter including the underscore
+
+dt_ - delete word till the first underscore you encounter (not including the underscore)
+
+df_ - delete word till the first underscore you encounter including the underscore
+
+f_ - move to the next underscore
+
+```
+
+
 
 
 
