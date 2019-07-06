@@ -25,6 +25,8 @@ b - move to the start of the previous word
 
 e - move to the end of the next word
 
+ge - move to the end of the previous word
+
 A - insert at the end of the current line
 
 I - insert at the start of the current line
